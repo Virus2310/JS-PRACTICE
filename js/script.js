@@ -1,8 +1,12 @@
 let money = prompt("Ваш бюджет на месяц?");
 let time = prompt("Введите дату в формате YYYY-MM-DD");
 
-let status = prompt("Введите обязательную статью расходов в этом месяце");
-let spend = prompt("Во сколько обойдется?");
+for(let i = 0; i < 2; i++){
+   let status = prompt("Введите обязательную статью расходов в этом месяце"),
+      spend = prompt("Во сколько обойдется?");
+}
+
+
 
 let budget;
 
